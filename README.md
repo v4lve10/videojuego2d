@@ -50,7 +50,3 @@ Este examen nos permitió comprender de manera práctica cómo la API Canvas es 
 
 Ángel Alejandro Maya Valverde
 Abdul Kalid Medina Sanchez
-
-[Nombre Completo del Alumno 1] - [Número de Control]
-
-[Nombre Completo del Alumno 2] - [Número de Control]
