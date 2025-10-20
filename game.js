@@ -14,10 +14,10 @@ const numGhosts = 10; // Número de fantasmas en pantalla
 
 // Cargar imágenes
 const backgroundImage = new Image();
-backgroundImage.src = 'assets/escenario.jpeg';
+backgroundImage.src = './assets/escenario.jpeg';
 
 const ghostImage = new Image();
-ghostImage.src = 'assets/fantasma.png';
+ghostImage.src = './assets/fantasma.png';
 
 // --- CLASE PARA LOS FANTASMAS ---
 class Ghost {
