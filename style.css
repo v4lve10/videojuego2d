@@ -1,0 +1,14 @@
+/* Estilo para que el cursor personalizado se aplique sobre el canvas */
+#gameCanvas {
+    background-color: #000;
+    /* Puntero personalizado como se pide en el punto 5 */
+    cursor: url('assets/cursor.jpeg'), auto;
+    width: 100%;
+    border: 3px solid #6c757d; /* Borde secundario de Bootstrap */
+    border-radius: 5px;
+}
+
+/* Para que el canvas no deforme el contenido */
+canvas {
+    display: block;
+}

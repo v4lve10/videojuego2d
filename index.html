@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invasión Fantasma</title>
+    
+    <link rel="icon" href="assets/favicon.ico.jpeg" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-white">
+
+    <header class="container text-center py-3">
+        <h1 class="display-4">🎃 Invasión Fantasma 👻</h1>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-12 col-md-9">
+                <canvas id="gameCanvas"></canvas>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="bg-secondary p-3 rounded">
+                    <h4>Puntuación: <span id="score">0</span></h4>
+                    <hr>
+                    <h5>Instrucciones</h5>
+                    <p>¡Atrapa a todos los fantasmas que puedas! Haz clic sobre ellos para eliminarlos antes de que invadan la pantalla.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container text-center mt-4 py-3">
+        <p>&copy; Creado por: Angel Alejandro Maya Valverde 23201261   </p>
+        <p>Abdul Kalid Medina Sanchez 23200865  </p>
+    </footer>
+    <audio id="backgroundMusic" src="assets/musica.mpeg" loop></audio>
+
+    <script src="game.js"></script>
+</body>
+</html>
